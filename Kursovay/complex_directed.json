@@ -1,0 +1,112 @@
+{
+  "name": "Сложный ориентированный граф",
+  "directed": true,
+  "nodes": [
+    {
+      "id": "S",
+      "x": 0,
+      "y": 2,
+      "label": "Старт"
+    },
+    {
+      "id": "A",
+      "x": 2,
+      "y": 0
+    },
+    {
+      "id": "B",
+      "x": 2,
+      "y": 4
+    },
+    {
+      "id": "C",
+      "x": 4,
+      "y": 1
+    },
+    {
+      "id": "D",
+      "x": 4,
+      "y": 3
+    },
+    {
+      "id": "E",
+      "x": 6,
+      "y": 0
+    },
+    {
+      "id": "F",
+      "x": 6,
+      "y": 4
+    },
+    {
+      "id": "G",
+      "x": 8,
+      "y": 2,
+      "label": "Цель"
+    }
+  ],
+  "edges": [
+    {
+      "from": "S",
+      "to": "A",
+      "weight": 4
+    },
+    {
+      "from": "S",
+      "to": "B",
+      "weight": 3
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "weight": 2
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "weight": 5
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "weight": 6
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "weight": 1
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "weight": 3
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "weight": 4
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "weight": 2
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "weight": 5
+    },
+    {
+      "from": "E",
+      "to": "G",
+      "weight": 7
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "weight": 2
+    }
+  ],
+  "start": "S",
+  "goal": "G"
+}
